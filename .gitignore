@@ -1,7 +1,9 @@
+.gitignore
 .vscode*
 .vscode/*
 q_table.py
 agent.py
+parameters.py
 gym-foo/
 gym_monitor_output/
 models/
