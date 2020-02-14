@@ -2,8 +2,7 @@
 # To add a new markdown cell, type '# %% [markdown]'
 # %% [markdown]
 # # Treinamento de Reinforcement Learning
-# %% [markdown]
-# algum bla bla bonito
+# ____________
 
 # %%
 import gym
@@ -60,7 +59,7 @@ STEPS_PER_EPISODE = 64
 max_num_steps = MAX_NUM_EPISODES * STEPS_PER_EPISODE
 ALPHA = 0.1
 GAMMA = 0.999
-EPSILON_DECAY = 25 * EPSILON_MIN / max_num_steps
+EPSILON_DECAY = 30 * EPSILON_MIN / max_num_steps
 
 train_params = TrainingParameters(MAX_NUM_EPISODES, STEPS_PER_EPISODE)
 learn_params = LearningParameters(ALPHA, GAMMA)
